@@ -3,7 +3,7 @@ font-family: 'Open Sans', sans-serif;
 background-color: #F2F2F2;
 
 }
-
+/* navigational header work area below......... */
 header {
   display:flex;
   justify-content:space-between;
@@ -41,9 +41,13 @@ a:hover {
 
 }
 
-i {
+i:hover {
+  color:#85C8FC;
+  text-decoration: none;
 
 }
+
+/* 1st parent containers starting here .............. */
 .container {
   display: flex;
   flex-direction: column;
@@ -60,10 +64,11 @@ i {
 
 section {
   background-color: white;
-  width: 697px;
+  width: 696px;
   height: 847px;
   margin-top: 48px;
-  margin-bottom: 39px;
+  overflow: hidden;
+
   background-repeat: no-repeat;
   background-size: 100% 50%;
 
@@ -71,13 +76,16 @@ section {
 
   margin-left: 118px;
 }
-
+/* work area of parent h5 for all h5s.................... */
 h5 {
   display:flex;
   justify-content: center;
-  padding-top: 504px;
+  padding-top: 456px;
+  padding-right: 2.3px;
   color:#85C8FC;
-  font-size: 10px;
+  font-size: 9px;
+  font-stretch:ultra-expanded;
+
 }
 
 h5:hover {
@@ -85,11 +93,16 @@ h5:hover {
   color: red;
 
 }
+/* work area of h2 parent for all h2 .......................... */
 h2 {
   display:flex;
   justify-content: center;
+  font-size: 21px;
+  font-stretch: ultra-expanded;
+  font-weight:400;
+  word-spacing: 4%;
 }
-
+/* work area for parent paragraph for all paragraphs.......... */
 p {
   display:flex;
   justify-content: center;
@@ -97,14 +110,18 @@ p {
   padding-right: 42px;
   font-size: 14px;
   font-stretch:ultra-expanded;
-
 }
+/* h6 parent edits for all h6.............................. */
 
+h6 {
+  font-size: 11px;
+}
+/* parent button work area for all button edit.............. */
 button {
   display:inline-block;
   justify-content:center;
-  margin-left: 279px;
-  margin-top: 5px;
+  margin-left: 263.5px;
+  margin-top: 5.5px;
   font-size: 12px;
   color:#85C8FC;
   padding: 13px;
@@ -115,25 +132,168 @@ button:hover {
   background-color: #85C8FC;
   color: white;
 }
+
+/* day started with coffee container edits below......... */
+
 .coffee{
 background-image:url("https://41.media.tumblr.com/53d67cd2acc54a2dfba6a527cdca8c2e/tumblr_nh0d3lE6Cy1togjtco1_500.jpg");
-
+ margin-bottom: 37px;
+ background-size: 100% 53%;
+ height: 876px;
+ margin-top: 37px;
+}
+.food {
+  margin-top: 47px;
+}
+.day-start {
+  word-spacing: 2px;
+}
+.coffee-button {
+  margin-top: 36px;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin-right: 1px;
 }
 
+.josh {
+  padding-left: 38.1px;
+  padding-top: 20.2px;
+}
+
+.fabcoffee {
+  display:inline-block;
+  justify-content: flex-end;
+  padding-left: 215px;
+  padding-bottom: 30px;
+  padding-top: -15px;
+  font-size: 30px;
+  color: #F1F0F0;
+  position: sticky;
+  bottom: 20px;
+  margin-top: -3px;
+}
+/* mice on main container edits below............................ */
 .mice {
   background-image: url("https://pyxis.nymag.com/v1/imgs/f7a/04a/19d954a244237559f408097ad4d7e2e1d3-mice-lede.jpg");
+  height: 804px;
+  margin-top: 40px;
+  background-size: 100% 48.6%;
 }
-.liberty-bridge {
-background-image: url("https://www.travelpharm.com/blog/wp-content/uploads/2016/08/1-travelpharm-blog-scarybridges.jpg");
+.entertain {
+  margin-top: -23px;
+  word-spacing: 2px;
+}
+.miceonmain {
+  margin-top: -2px;
+  word-spacing: 7px;
+  margin-right: 2px;
 }
 
+.button-mice {
+  padding-left: 23px;
+  padding-right: 23px;
+  margin-top: 89px;
+
+}
+
+.james {
+  padding-left: 38px;
+  padding-top: 32px;
+
+}
+.fabmice {
+  display:inline-block;
+  justify-content: flex-end;
+  padding-left: 193px;
+  padding-bottom: 30px;
+  padding-top: -2px;
+  font-size: 30px;
+  color: #F1F0F0;
+  position: sticky;
+  left: 245px;
+  bottom: 1px;
+}
+
+/* art in public container edits below............... */
 
 .art {
   background-image: url("https://i0.wp.com/stallonezone.com/imgs/news/2006/may/051406rocky_statue.png?resize=500%2C324");
+  height: 950px;
+  margin-top: 40px;
+  background-size: 114% 54.2%;
+}
+
+.blue-art {
+  margin-top: 98px;
+}
+.art-paragraph {
+  padding-top: 7px;
+}
+.art-button {
+  margin-top: 54px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.noelle {
+  padding-left: 38px;
+  padding-top: 34px;
+}
+.fabart {
+  display:inline-block;
+  justify-content: flex-end;
+  padding-left: 193px;
+  padding-bottom: 30px;
+  padding-top: -2px;
+  font-size: 30px;
+  color: #F1F0F0;
+}
+/* liberty bridge downton container edits below.................. */
+.bridge-downtown {
+  font-stretch:ultra-expanded;
+  word-spacing: 3.9px;
+  margin-right: 3px;
+}
+.ben {
+  padding-left: 40px;
+  padding-top: 35px;
 
 }
 
+.liberty-bridge {
+background-image: url("https://www.travelpharm.com/blog/wp-content/uploads/2016/08/1-travelpharm-blog-scarybridges.jpg");
+background-size: 100% 51%;
+}
+.bridge-paragraph {
+  word-spacing: 1px;
+  padding-top: 7px;
+}
+.bridge-button {
+  margin-top: 61.5px;
 
+  padding-left: 22px;
+  padding-right: 22px;
+  position: sticky;
+}
+.fabbridge {
+  display:inline-block;
+  justify-content: flex-end;
+  margin-top: -60px;
+  position: sticky;
+  left:438px;
+  bottom: 30px;
+
+
+  font-size: 30px;
+  color: #F1F0F0;
+}
+
+
+
+
+
+
+
+/* footer work area below.....................................                     */
 
 footer {
   background-color: black;
