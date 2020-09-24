@@ -1,13 +1,14 @@
 body {
 font-family: 'Open Sans', sans-serif;
 background-color: #F2F2F2;
-
+/* margin: 0; */
 }
-/* navigational header work area below......... */
+
+/* header edits below.........................................................       */
 header {
   display:flex;
-  justify-content:space-between;
-  height: 63px;
+  justify-content: space-between;
+  height: 64px;
   background-color: white;
 }
 nav {
@@ -17,12 +18,13 @@ nav {
 a {
   text-decoration: none;
   display: inline-block;
-  font-size: 11px;
-  margin-left: 27.5px;
+  font-size: 10.2px;
+  margin-left: 20.5px;
   color: black;
-  margin-right: 3px;
-
-  letter-spacing: 1px;
+  margin-right: 0px;
+  font-weight: 100;
+word-spacing: 2px;
+  letter-spacing: 1.2px;
 }
 
 a:hover {
@@ -30,10 +32,29 @@ a:hover {
 }
 
 .main-nav {
-  padding-left: 105px;
-  padding-top: 20px;
-
-
+  padding-left: 110px;
+  padding-top: 22px;
+}
+.features {
+  position: relative;
+  left:4px;
+}
+.life {
+  position: relative;
+  left: 10px;
+}
+.travelA {
+  display: inline-block;
+position: relative;
+ left: 9px;
+}
+.aboutMe {
+  position: relative;
+  left:10px;
+}
+.contactA {
+position: relative;
+left: 10px;
 }
 .main-nav a {
   margin-left: 26px;
@@ -41,39 +62,39 @@ a:hover {
 
 .social-nav {
   display:inline-block;
-  padding-right: 104px;
+  padding-right: 81px;
   word-spacing: 1.3px;
-  padding-top: 21px;
+  padding-top: 22px;
 
 }
-
+.search{
+  position: relative;
+  left:8px;
+  bottom: 2px;
+}
 
 i:hover {
   color:#85C8FC;
   text-decoration: none;
-
 }
-i {
 
-  ;
-  padding-right: 0px;
-
-:
-  font-size: 11px;
-
-
-
-
-
-}
+/* parents container edits....................................... */
 
 /* 1st parent containers starting here .............. */
 .container {
-  display: inline-block;
+  display: flex;
 
 
 
 
+}
+.left-side {
+  float:left;
+  padding-left: 2px;
+}
+.right-side {
+  float:right;
+  margin-left:
 }
 .container::after {
   content: '';
@@ -83,8 +104,9 @@ i {
 
 section {
   background-color: white;
-  width: 696px;
-  height: 847px;
+  width: 718px;
+
+
 
 
   overflow: hidden;
@@ -102,7 +124,7 @@ h5 {
   padding-top: 456px;
   padding-right: 2.3px;
   color:#85C8FC;
-  font-size: 9px;
+  font-size: 10px;
   font-stretch:ultra-expanded;
 
   }
@@ -139,7 +161,7 @@ p {
 /* h6 parent edits for all h6.............................. */
 
 h6 {
-  font-size: 11px;
+  font-size: 12px;
 
 }
 /* parent button work area for all button edit.............. */
@@ -165,39 +187,40 @@ button:hover {
   background-image:url("https://41.media.tumblr.com/53d67cd2acc54a2dfba6a527cdca8c2e/tumblr_nh0d3lE6Cy1togjtco1_500.jpg");
   margin-left: 118px;
    background-size: 100% 53%;
-   height: 876px;
-  margin-top: 37px;
-  margin-bottom: 37px;
+   height: 903px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 .food {
   display:inline-block;
   margin-top: 47px;
   position:relative;
-  left:334px;
-  bottom: 10px;
+  left:345px;
+  top: 14px;
 }
 .day-start {
   display: inline-block;
   position: relative;
-  left: 161px;
-  word-spacing: 4px;
-  top:23px;
+  left: 170px;
+  word-spacing: 6px;
+  top:50px;
+  letter-spacing: 0,4px;
 
 }
 .coffee-paragraph {
   display:inline-block;
   position: relative;
-  top: 17px;
+  top: 45px;
 
 }
 .coffee-button {
 display:inline-block;
 margin-top: 36px;
-padding-left: 22px;
-padding-right: 22px;
+padding-left: 24px;
+padding-right: 24px;
 position:relative;
-bottom: 15px;
-right: 170px;
+top:17px;
+right: 166px;
 
 }
 
@@ -205,8 +228,10 @@ right: 170px;
   display:inline-block;
   float: left;
   position:relative;
-  top:95px;
+  top:129px;
+  left: 2px;
   padding-left: 35.5px;
+  font-weight: 100;
 
 }
 
@@ -214,7 +239,7 @@ right: 170px;
   display:inline-block;
   float:right;
   position:relative;
-  left:221px;
+  left:230px;
   bottom: 5px;
 
   font-size: 30px;
@@ -225,23 +250,72 @@ right: 170px;
 .profile {
   display:inline-block;
   float:right;
-  margin-right: 104px;
+  margin-right:63px;
   margin-top: 48px;
-  height: 630px;
-  width:334px;
+  height: 652px;
+  width:345.2px;
+  border-radius:;
+  background-image: url("https://s3.amazonaws.com/pixpa.com/com/articles/1542633307-324718-erico-marcelino-235177-unsplashjpg.png");
+  background-size: 100% 30%;
+  background-repeat: no-repeat;
 
 
+}
+.profilephoto {
+
+  width: 280px;
+  height: 280.2px;
+  overflow:hidden;
+
+
+    border-radius: 50%;
+    border: solid 4px white;
+    position: absolute;
+    top:205.2px;
+    margin-left:28px;
+    padding:0;
+
+
+
+
+}
+.profilesociallinks {
+  position: relative;
+  top: 389px;
+  padding-left: 81px;
+  font-size: 28px;
+  word-spacing: 4px;
+
+
+}
+
+.profileparagraph {
+  position: relative;
+  top:379px;
+  font-weight: 100;
+  word-spacing: 1px;
+  font-size: 13px;
+  line-height: 25px;
+
+}
+
+.profilename {
+  position:relative;
+  top: 386px;
+  font-size: 17px;
+  padding-left: 101px;
 }
 /* popular post container edits here......................... */
 
 .popularpost {
   display:inline-block;
-  height: 848px;
-  width: 334px;
+  height: 873px;
+  width: 345.2px;
   float: right;
-  margin-right: 104px;
+  margin-right:63px;
   position: relative;
-  bottom: 192px;
+  top: 29px;
+
   }
   .populartitle {
     display:inline-block;
@@ -260,34 +334,212 @@ right: 170px;
     position:relative;
     font-size: 11px;
     padding-left: 27px;
-    word-spacing: -1px;
-    font-weight: 100;
-    top: 17px;
+
+
+
     }
 
 
 
   .poppic {
-  display:inline-block;
+  width: 287px;
+  height:168px;
+  margin-left:5px;
   position: relative;
+
 
   }
   .poppic1 {
+    width: 287px;
+    height: 168px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    position:relative;
+    top: 37px;
 
   }
   .poppic2 {
+    width:291px;
+    height: 170px;
+    position: relative;
+    top: 56px;
+    left:2px;
 
+  }
+  .datepop {
+    display: inline-block;
+
+  }
+  .populartitle {
+    display: inline-block;
+    margin-left: 11px;
+  position: relative;
+  top:4px;
+  }
+  .greendrive {
+    display:inline-block;
+    position:relative;
+    font-size: 11px;
+    letter-spacing: 0.1px;
+    margin-left: 10px;
+    bottom: 3px;
+    font-weight: bold;
+
+  }
+  .datepop {
+    display: inline-block;
+    font-weight: lighter;
+    position: relative;
+    top:20px;
+    right: 111px;
+  }
+
+  .datepop2 {
+    display: inline-block;
+    position: relative;
+    top: 42px;
+    font-weight: lighter;
+    right:120px;
+  }
+  .fallforg {
+    display: inline-block;
+    position:relative;
+    font-size: 11px;
+    font-weight: bold;
+    top:18px;
+    left:8px;
+  }
+  .datepop3 {
+    display: inline-block;
+    position: relative;
+    top: 65px;
+    right:158px;
+    font-weight: lighter;
+  }
+
+  .cockt {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 11px;
+    top: 44px;
+    left: 8px;
   }
 /* latest post container edits here............. */
 
 .latestpost {
   display:inline-block;
-  height: 459px;
-  width: 334px;
-  float: right;
-  margin-right: 104px;
+  height: 471px;
+  width: 345.2px;
   position: relative;
-  bottom: 306px;
+  top: 70px;
+  left: 3px;
+
+}
+.lposts {
+  display: inline-block;
+  position: relative;
+  font-size: 17px;
+  left: 109px;
+  bottom: 21px;
+}
+.lpost {
+  display: inline-block;
+  position: relative;
+  margin-left: 109px;
+line-height: 20px;
+bottom: 25px;
+}
+.florence {
+  width: 98px;
+  height: 72px;
+  position: relative;
+  top:75px;
+  right: 132px;
+
+
+}
+.operatheaterwrap {
+  display: inline-block;
+
+
+}
+.salvatoredate {
+  display: inline-block;
+  position: relative;
+  left: 135px;
+  font-weight: 100;
+  font-size: 10px;
+  bottom: 90px;
+}
+
+.mod {
+  width: 98px;
+  height: 72px;
+  display: inline-block;
+  position: relative;
+  bottom: 135px;
+  right: 90px;
+
+
+}
+.modern-minimalist {
+  display: inline-block;
+}
+.moddate {
+  display: inline-block;
+  position: relative;
+  bottom: 72px;
+  font-weight: 100;
+  font-size: 10px;
+  right: 50px;
+
+}
+.lpost1 {
+  display: inline-block;
+  position: relative;
+  left: 108px;
+  bottom: 95px;
+}
+.ras {
+  width: 98px;
+  height: 72px;
+  display: inline-block;
+  position:relative;
+  bottom: 80px;
+
+
+}
+.rasDate {
+  display:inline-block;
+  position: relative;
+  left: 110px;
+  bottom: 207px;
+  font-weight: 100;
+  font-size: 10px;
+
+}
+.lpost2  {
+  display: inline-block;
+  position:relative;
+  bottom: 142px;
+  margin-left: 109px;
+  line-height: 18px;
+}
+.day {
+  width: 98px;
+  height: 72px;
+  display: inline-block;
+}
+.latest-post-wrapper {
+  display:inline-block;
+
+
+}
+.day {
+  display:inline-block;
+  position:relative;
+  margin-bottom: 40px;
 }
 
 /* pinterst post container edits here.............. */
@@ -297,10 +549,10 @@ right: 170px;
   height: 376px;
   width: 334px;
   float: right;
-  margin-right: 104px;
+  margin-right:
 
   position:relative;
-  bottom: 659px;
+  /* bottom: 659px; */
 }
 .pinttitle {
   display: inline-block;
@@ -319,38 +571,40 @@ right: 170px;
 .mice {
   display:inline-block;
   background-image: url("https://pyxis.nymag.com/v1/imgs/f7a/04a/19d954a244237559f408097ad4d7e2e1d3-mice-lede.jpg");
-  height: 804px;
-  margin-top: 40px;
+  height: 830px;
+  margin-top: 38px;
   margin-left: 118px;
   background-size: 100% 48.6%;
 }
 .entertain {
 display:inline-block;
 position: relative;
-bottom: 47px;
-left: 305px;
+bottom: 28px;
+left: 314px;
 letter-spacing: 0.5px;
 }
 .miceonmain {
 display:inline-block;
 position: relative;
-left: 175px;
+left: 177px;
 word-spacing: 6px;
-bottom: 11px;
+top: 5px;
+letter-spacing: 0.4px;
+
 }
 .miceparagraph {
   display:inline-block;
   position: relative;
-  bottom: 19px;
+
 }
 
 .button-mice {
 display:inline-block;
-padding-left: 22px;
-padding-right: 22px;
+padding-left: 24px;
+padding-right: 24px;
 position:relative;
-top: -15px;
-left: 25px;
+top:7px;
+left: 18px;
 
 }
 
@@ -358,15 +612,17 @@ left: 25px;
 display:inline-block;
 float:left;
 position:relative;
-top: 60px;
+top: 85px;
 padding-left: 37px;
+font-weight: 100;
 }
 .fabmice {
   display:inline-block;
   justify-content: flex-end;
   position:relative;
-  top: 80px;
-  padding-right: 44px;
+  top: 107px;
+  left: 33px;
+  padding-right: 25px;
 
   font-size: 30px;
   color: #F1F0F0;
@@ -377,31 +633,31 @@ padding-left: 37px;
 
 .art {
   background-image: url("https://i0.wp.com/stallonezone.com/imgs/news/2006/may/051406rocky_statue.png?resize=500%2C324");
-  height: 950px;
+  height: 984px;
   display:inline-block;
   background-size: 114% 54.2%;
   margin-left: 118px;
-  margin-top: 40px;
+  margin-top: 38px;
 }
 
 .blue-art {
 display:inline-block;
 position: relative;
-left: 336px;
-top: 80px;
+left: 348px;
+top: 100px;
 }
 .art-paragraph {
 display:inline-block;
 position: relative;
-top:106px;
+top:133px;
 }
 .art-button {
 display:inline-block;
 position:relative;
-top:110px;
-padding-left: 22px;
-padding-right:22px;
-right:200px;
+top:141px;
+padding-left: 24px;
+padding-right:24px;
+right:209px;
 }
 .noelle {
 display:inline-block;
@@ -409,77 +665,91 @@ float: left;
 position: relative;
 padding-top: 133px;
 padding-left: 41px;
-top: 55px
+top: 66px
 }
 .fabart {
   display:inline-block;
   position: relative;
-  left: 195px;
-  bottom: 8px;
+  left: 190px;
+  top: 12px;
   font-size: 30px;
   color: #F1F0F0;
 }
 .art-in-public {
   display:inline-block;
   position:relative;
-  left: 200px;
-  top: 116px;
-  word-spacing: 2px;
+  left: 203px;
+  top: 139px;
+  word-spacing: 6px;
+
 }
 /* liberty bridge downton container edits below.................. */
 .bridge-downtown {
 display:inline-block;
 position:relative;
-top: 37px;
+top: 51px;
 padding-left: 68px;
-word-spacing: 6.2px;
+word-spacing: 4px;
+letter-spacing: 1px;
 
 }
 .travel {
   display: inline-block;
  position: relative;
- left:327px;
+ left:340px;
+ top: 18px;
+
 }
 .ben {
 display:inline-block;
 float: left;
 padding-left: 40px;
 position:relative;
-top: 110px;
+top: 131px;
+font-weight: 100;
 
+}
+aside {
+ width: 334px;
+ background-color: white;
 }
 
 .liberty-bridge {
 background-image: url("https://www.travelpharm.com/blog/wp-content/uploads/2016/08/1-travelpharm-blog-scarybridges.jpg");
-background-size: 100% 51%;
+background-size: 100% 51.5%;
 display:inline-block;
 margin-left: 118px;
-margin-top: 48px;
+margin-top: 49px;
+height: 873px;
 }
 .bridge-paragraph {
 display:inline-block;
 position: relative;
-top: 29px;
+top: 45px;
 }
 .bridge-button {
 display:inline-block;
 position: relative;
-top: 32px;
-margin-left: 18px;
-padding-left: 22px;
-padding-right:22px;
+top: 52px;
+left:2px;
+margin-left: 19px;
+padding-left: 24px;
+padding-right:24px;
 }
 .fabbridge {
   display:inline-block;
   font-size: 30px;
   color: #F1F0F0;
   position:relative;
-  top: 130px;
-  padding-right: 43px;
+  top: 154px;
+  left:7px;
+
+
+  padding-right: 30px;
 }
 div {
   display:inline-block;
-  float:right;
+
 }
 
 img {
@@ -490,48 +760,29 @@ img {
 
 
 }
-.lpost {
-  font-size: 11px;
-  display: inline-block;
-  float:right;
-  margin: 55px;
-  position:relative;
-  left: 78px;
-  bottom: 110px;
-  line-height: 20px;
-}
-.salvatoredate {
-  display:inline-block;
-  position: relative;
-  left: 40px;
-}
 
-.lpost1 {
-  font-size: 11px;
-  display:inline-block;
-  position:relative;
-  left: 33px;
-  bottom: 206px;
-}
-.florence {
-  display: inline-block;
-  position: relative;
-  padding-left: 28px;
-  top: 20px;
-}
 
-/* footer work area below.....................................                     */
 
+
+
+
+/* footer edits below.............................................................. */
 footer {
   background-color: black;
   display: flex;
   justify-content: center;
-  height: 55px;
+
+  height: 56px;
 
 
 }
 .carolina-code {
   color: white;
+  display: inline-block;
+  position: relative;
+  left: 25px;
+
+
   font-size: 14px;
   font-family: 'Cormorant Garamond', serif;
 
