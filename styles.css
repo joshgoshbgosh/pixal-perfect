@@ -346,6 +346,11 @@ right: 166px;
   height:168px;
   margin-left:5px;
   position: relative;
+  right: 4px;
+  
+
+
+
 
 
   }
@@ -356,6 +361,7 @@ right: 166px;
     margin-bottom: 5px;
     position:relative;
     top: 37px;
+    right:4px;
 
   }
   .poppic2 {
@@ -363,7 +369,8 @@ right: 166px;
     height: 170px;
     position: relative;
     top: 56px;
-    left:2px;
+    left:0px;
+
 
   }
   .datepop {
@@ -381,9 +388,10 @@ right: 166px;
     position:relative;
     font-size: 11px;
     letter-spacing: 0.1px;
-    margin-left: 10px;
+    margin-left: 8px;
     bottom: 3px;
     font-weight: bold;
+    right:5px;
 
   }
   .datepop {
@@ -391,7 +399,7 @@ right: 166px;
     font-weight: lighter;
     position: relative;
     top:20px;
-    right: 111px;
+    right: 118px;
   }
 
   .datepop2 {
@@ -399,7 +407,7 @@ right: 166px;
     position: relative;
     top: 42px;
     font-weight: lighter;
-    right:120px;
+    right:125px;
   }
   .fallforg {
     display: inline-block;
@@ -407,13 +415,13 @@ right: 166px;
     font-size: 11px;
     font-weight: bold;
     top:18px;
-    left:8px;
+    left:5px;
   }
   .datepop3 {
     display: inline-block;
     position: relative;
     top: 65px;
-    right:158px;
+    right:162px;
     font-weight: lighter;
   }
 
@@ -506,66 +514,166 @@ bottom: 25px;
   height: 72px;
   display: inline-block;
   position:relative;
-  bottom: 80px;
+  bottom: 100px;
+  top:-37px;
+  right:3px;
 
 
 }
 .rasDate {
   display:inline-block;
   position: relative;
-  left: 110px;
-  bottom: 207px;
+  left: 109px;
+  bottom: 187px;
   font-weight: 100;
   font-size: 10px;
+  margin-right: 2px;
+
 
 }
 .lpost2  {
   display: inline-block;
   position:relative;
-  bottom: 142px;
+  bottom: 123px;
   margin-left: 109px;
   line-height: 18px;
+
 }
 .day {
   width: 98px;
   height: 72px;
   display: inline-block;
+  position:relative;
+  top: -77px;
+  right: 119px;
 }
 .latest-post-wrapper {
   display:inline-block;
 
 
 }
-.day {
-  display:inline-block;
-  position:relative;
-  margin-bottom: 40px;
+.lpost3 {
+  display: inline-block;
+  position: relative;
+  bottom: 193px;
+  left:108px;
+
+}
+.coffeeDay {
+  display: inline-block;
+  position: relative;
+  bottom: 169px;
+  right: 50px;
+  font-size: 10px;
+  font-weight: 100;
 }
 
-/* pinterst post container edits here.............. */
+/* pinterest post container edits here.............. */
+
+}
+aside {
+  display: inline-block;
+
+}
 
 .pinterest {
   display:inline-block;
-  height: 376px;
-  width: 334px;
-  float: right;
-  margin-right:
-
+  height: 390px;
+  width: 345px;
   position:relative;
-  /* bottom: 659px; */
+
 }
 .pinttitle {
   display: inline-block;
   position:relative;
-  padding-left: 121px;
+  padding-left: 124px;
   font-size: 17px;
   font-weight: 100;
   padding-top: 19px;
+  left:5px;
+  top: -30px;
+
+
 
 }
+ .p1 {
+  width: 90px;
+  height: 85px;
+  position: relative;
+  display: inline-block;
+  right: 216px;
+  top: 268px;
+}
+ .p2 {
+  width: 90px;
+  height: 85px;
+  top:72px;
+  left:1px;
+  display: inline-block;
+  position:relative;
+}
+.p3 {
+  width:90px;
+  height:85px;
+  bottom: 60px;
+  top: -22px;
+right: 123px;
+display: inline-block;
+position:relative;
+}
+.p4 {
+  width:90px;
+  height:85px;
+  left: 99px;
+  bottom: 110px;
+  top: -111px;
+  display: inline-block;
+  position:relative;
+}
+.p5 {
+  width:90px;
+  height:85px;
+  left: 73px;
+  bottom: 150px;
+  top: -111px;
+  display: inline-block;
+  position:relative;
 
-.p1 {
-  width: 10px;
+}
+.p6 {
+  width:90px;
+  height:85px;
+  left:99px;
+  top: -106px;
+
+
+  display: inline-block;
+  position:relative;
+
+}
+.p7 {
+  width:90px;
+  height:85px;
+  display: inline-block;
+  position:relative;
+  left: 72.4px;
+  top:-106px;
+}
+.p8 {
+  width:90px;
+  height:85px;
+  display: inline-block;
+  position:relative;
+  top: -101px;
+  left: 103px;
+}
+.p9 {
+  width:90px;
+  height:85px;
+  display: inline-block;
+  position:relative;
+  left: 73px;
+  top: -102px;
 }
 /* mice on main container edits below............................ */
 .mice {
