@@ -1,1 +1,1 @@
-# pixal-perfect
+# pixel-perfect
