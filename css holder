@@ -1,0 +1,562 @@
+body {
+font-family: 'Open Sans', sans-serif;
+background-color: #F2F2F2;
+
+}
+/* navigational header work area below......... */
+header {
+  display:flex;
+  justify-content:space-between;
+  height: 63px;
+  background-color: white;
+}
+nav {
+  display:inline-block;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin-left: 27.5px;
+  color: black;
+  margin-right: 3px;
+
+  letter-spacing: 1px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main-nav {
+  padding-left: 105px;
+  padding-top: 20px;
+
+
+}
+.main-nav a {
+  margin-left: 26px;
+}
+
+.social-nav {
+  display:inline-block;
+  padding-right: 104px;
+  word-spacing: 1.3px;
+  padding-top: 21px;
+
+}
+
+
+i:hover {
+  color:#85C8FC;
+  text-decoration: none;
+
+}
+i {
+
+  ;
+  padding-right: 0px;
+
+:
+  font-size: 11px;
+
+
+
+
+
+}
+
+/* 1st parent containers starting here .............. */
+.container {
+  display: flex;
+
+
+
+
+}
+.left-side {
+  float:left;
+}
+.right-side {
+  float:right;
+}
+.container::after {
+  content: '';
+
+  height: 100%;
+}
+
+section {
+  background-color: white;
+  width: 696px;
+  height: 847px;
+
+
+  overflow: hidden;
+
+
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+
+}
+/* work area of parent h5 for all h5s.................... */
+h5 {
+  display:inline-block;
+
+  justify-content: center;
+  padding-top: 456px;
+  padding-right: 2.3px;
+  color:#85C8FC;
+  font-size: 9px;
+  font-stretch:ultra-expanded;
+
+  }
+
+
+}
+
+h5:hover {
+  text-decoration: underline;
+  color: red;
+
+}
+/* work area of h2 parent for all h2 .......................... */
+h2 {
+  display:
+  justify-content: center;
+  font-size: 21px;
+  font-stretch: ultra-expanded;
+  font-weight:400;
+  word-spacing: 4%;
+}
+/* work area for parent paragraph for all paragraphs.......... */
+p {
+  display:inline-block;
+
+  justify-content: center;
+  padding-left: 42px;
+  padding-right: 42px;
+  font-size: 14px;
+  font-stretch:ultra-expanded;
+  line-height: 1.8;
+
+}
+/* h6 parent edits for all h6.............................. */
+
+h6 {
+  font-size: 11px;
+
+}
+/* parent button work area for all button edit.............. */
+button {
+  display:inline-block;
+  justify-content:center;
+
+  font-size: 12px;
+  color:#85C8FC;
+  padding: 13px;
+  background-color: white;
+  border-color: #85C8FC;
+}
+button:hover {
+  background-color: #85C8FC;
+  color: white;
+}
+
+/* day started with coffee container edits below......... */
+
+.coffee{
+  display:inline-block;
+  background-image:url("https://41.media.tumblr.com/53d67cd2acc54a2dfba6a527cdca8c2e/tumblr_nh0d3lE6Cy1togjtco1_500.jpg");
+  margin-left: 118px;
+   background-size: 100% 53%;
+   height: 876px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+.food {
+  display:inline-block;
+  margin-top: 47px;
+  position:relative;
+  left:334px;
+  bottom: 10px;
+}
+.day-start {
+  display: inline-block;
+  position: relative;
+  left: 161px;
+  word-spacing: 4px;
+  top:23px;
+
+}
+.coffee-paragraph {
+  display:inline-block;
+  position: relative;
+  top: 17px;
+
+}
+.coffee-button {
+display:inline-block;
+margin-top: 36px;
+padding-left: 22px;
+padding-right: 22px;
+position:relative;
+bottom: 15px;
+right: 170px;
+
+}
+
+.josh {
+  display:inline-block;
+  float: left;
+  position:relative;
+  top:95px;
+  padding-left: 35.5px;
+
+}
+
+.fabcoffee {
+  display:inline-block;
+  float:right;
+  position:relative;
+  left:221px;
+  bottom: 5px;
+
+  font-size: 30px;
+  color: #F1F0F0;
+
+}
+/* profile container edits here...................... */
+.profile {
+  display:inline-block;
+  float:right;
+  margin-right: 104px;
+  margin-top: 48px;
+  height: 630px;
+  width:334px;
+  border-radius:
+
+
+
+}
+.profilephoto {
+
+  width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    border: solid 3px white;
+    position: absolute;
+    top: 57%;
+    right: 26%;
+}
+/* popular post container edits here......................... */
+
+.popularpost {
+  display:inline-block;
+  height: 848px;
+  width: 334px;
+  float: right;
+  margin-right: 104px;
+  position: relative;
+  bottom: 192px;
+  }
+  .populartitle {
+    display:inline-block;
+    position:relative;
+    padding-left: 95px;
+    font-size: 17px;
+    padding-top: 21px;
+  }
+  .greendrive {
+    display: inline-block;
+    position:relative;
+    font-size: 6px;
+  }
+  h3 {
+    display: inline-block;
+    position:relative;
+    font-size: 11px;
+    padding-left: 27px;
+    word-spacing: -1px;
+    font-weight: 100;
+    top: 17px;
+    }
+
+
+
+  .poppic {
+  display:inline-block;
+  position: relative;
+
+  }
+  .poppic1 {
+
+  }
+  .poppic2 {
+
+  }
+/* latest post container edits here............. */
+
+.latestpost {
+  display:inline-block;
+  height: 459px;
+  width: 334px;
+  float: right;
+  margin-right: 104px;
+  position: relative;
+  bottom: 306px;
+}
+
+/* pinterst post container edits here.............. */
+
+.pinterest {
+  display:inline-block;
+  height: 376px;
+  width: 334px;
+  float: right;
+  margin-right: 104px;
+
+  position:relative;
+  bottom: 659px;
+}
+.pinttitle {
+  display: inline-block;
+  position:relative;
+  padding-left: 121px;
+  font-size: 17px;
+  font-weight: 100;
+  padding-top: 19px;
+
+}
+
+.p1 {
+  width: 10px;
+}
+/* mice on main container edits below............................ */
+.mice {
+  display:inline-block;
+  background-image: url("https://pyxis.nymag.com/v1/imgs/f7a/04a/19d954a244237559f408097ad4d7e2e1d3-mice-lede.jpg");
+  height: 804px;
+  margin-top: 40px;
+  margin-left: 118px;
+  background-size: 100% 48.6%;
+}
+.entertain {
+display:inline-block;
+position: relative;
+bottom: 47px;
+left: 305px;
+letter-spacing: 0.5px;
+}
+.miceonmain {
+display:inline-block;
+position: relative;
+left: 175px;
+word-spacing: 6px;
+bottom: 11px;
+}
+.miceparagraph {
+  display:inline-block;
+  position: relative;
+  bottom: 19px;
+}
+
+.button-mice {
+display:inline-block;
+padding-left: 22px;
+padding-right: 22px;
+position:relative;
+top: -15px;
+left: 25px;
+
+}
+
+.james {
+display:inline-block;
+float:left;
+position:relative;
+top: 60px;
+padding-left: 37px;
+}
+.fabmice {
+  display:inline-block;
+  justify-content: flex-end;
+  position:relative;
+  top: 80px;
+  padding-right: 44px;
+
+  font-size: 30px;
+  color: #F1F0F0;
+
+}
+
+/* art in public container edits below............... */
+
+.art {
+  background-image: url("https://i0.wp.com/stallonezone.com/imgs/news/2006/may/051406rocky_statue.png?resize=500%2C324");
+  height: 950px;
+  display:inline-block;
+  background-size: 114% 54.2%;
+  margin-left: 118px;
+  margin-top: 40px;
+}
+
+.blue-art {
+display:inline-block;
+position: relative;
+left: 336px;
+top: 80px;
+}
+.art-paragraph {
+display:inline-block;
+position: relative;
+top:106px;
+}
+.art-button {
+display:inline-block;
+position:relative;
+top:110px;
+padding-left: 22px;
+padding-right:22px;
+right:200px;
+}
+.noelle {
+display:inline-block;
+float: left;
+position: relative;
+padding-top: 133px;
+padding-left: 41px;
+top: 55px
+}
+.fabart {
+  display:inline-block;
+  position: relative;
+  left: 195px;
+  bottom: 8px;
+  font-size: 30px;
+  color: #F1F0F0;
+}
+.art-in-public {
+  display:inline-block;
+  position:relative;
+  left: 200px;
+  top: 116px;
+  word-spacing: 2px;
+}
+/* liberty bridge downton container edits below.................. */
+.bridge-downtown {
+display:inline-block;
+position:relative;
+top: 37px;
+padding-left: 68px;
+word-spacing: 6.2px;
+
+}
+.travel {
+  display: inline-block;
+ position: relative;
+ left:327px;
+}
+.ben {
+display:inline-block;
+float: left;
+padding-left: 40px;
+position:relative;
+top: 110px;
+
+}
+aside {
+ width: 334px;
+ background-color: white;
+}
+
+.liberty-bridge {
+background-image: url("https://www.travelpharm.com/blog/wp-content/uploads/2016/08/1-travelpharm-blog-scarybridges.jpg");
+background-size: 100% 51%;
+display:inline-block;
+margin-left: 118px;
+margin-top: 48px;
+}
+.bridge-paragraph {
+display:inline-block;
+position: relative;
+top: 29px;
+}
+.bridge-button {
+display:inline-block;
+position: relative;
+top: 32px;
+margin-left: 18px;
+padding-left: 22px;
+padding-right:22px;
+}
+.fabbridge {
+  display:inline-block;
+  font-size: 30px;
+  color: #F1F0F0;
+  position:relative;
+  top: 130px;
+  padding-right: 43px;
+}
+div {
+  display:inline-block;
+  float:right;
+}
+
+img {
+  width:275px;
+  padding-left: 30px;
+  position: relative;
+  top: 19px;
+
+
+}
+.lpost {
+  font-size: 11px;
+  display: inline-block;
+  float:right;
+  margin: 55px;
+  position:relative;
+  left: 78px;
+  bottom: 110px;
+  line-height: 20px;
+}
+.salvatoredate {
+  display:inline-block;
+  position: relative;
+  left: 40px;
+}
+
+.lpost1 {
+  font-size: 11px;
+  display:inline-block;
+  position:relative;
+  left: 33px;
+  bottom: 206px;
+}
+.florence {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  top: 20px;
+}
+
+/* footer work area below.....................................                     */
+
+footer {
+  background-color: black;
+  display: flex;
+
+  height: 55px;
+
+
+}
+.carolina-code {
+  color: white;
+  display: inline-block;
+
+  font-size: 14px;
+  font-family: 'Cormorant Garamond', serif;
+
+}

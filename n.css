@@ -1,0 +1,368 @@
+body {
+font-family: 'Open Sans', sans-serif;
+background-color: #F2F2F2;
+
+}
+/* navigational header work area below......... */
+header {
+  display:flex;
+  justify-content:space-between;
+  height: 63px;
+  background-color: white;
+}
+nav {
+  display:inline-block;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin-left: 27.5px;
+  color: black;
+  margin-right: 3px;
+  /* font-stretch: ultra-condensed; */
+  letter-spacing: 1px;
+  /* font-weight: 50; */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main-nav {
+  padding-left: 105px;
+  padding-top: 20px;
+
+
+}
+.main-nav a {
+  margin-left: 26px;
+}
+
+.social-nav {
+  display:inline-block;
+  padding-right: 104px;
+  word-spacing: 1.3px;
+  padding-top: 21px;
+
+}
+
+
+i:hover {
+  color:#85C8FC;
+  text-decoration: none;
+
+}
+i {
+
+  ;
+  padding-right: 0px;
+
+:
+  font-size: 11px;
+
+
+
+
+
+}
+
+/* 1st parent containers starting here .............. */
+.container {
+  display: inline-block;
+
+
+
+
+}
+.container::after {
+  content: '';
+
+  height: 100%;
+}
+
+section {
+  background-color: white;
+  width: 696px;
+  height: 847px;
+
+
+  overflow: hidden;
+
+
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+
+}
+/* work area of parent h5 for all h5s.................... */
+h5 {
+  display:inline-block;
+
+  justify-content: center;
+  padding-top: 456px;
+  padding-right: 2.3px;
+  color:#85C8FC;
+  font-size: 9px;
+  font-stretch:ultra-expanded;
+
+  }
+
+
+}
+
+h5:hover {
+  text-decoration: underline;
+  color: red;
+
+}
+/* work area of h2 parent for all h2 .......................... */
+h2 {
+  display:
+  justify-content: center;
+  font-size: 21px;
+  font-stretch: ultra-expanded;
+  font-weight:400;
+  word-spacing: 4%;
+}
+/* work area for parent paragraph for all paragraphs.......... */
+p {
+  display:inline-block;
+
+  justify-content: center;
+  padding-left: 42px;
+  padding-right: 42px;
+  font-size: 14px;
+  font-stretch:ultra-expanded;
+  line-height: 2.5;
+
+}
+/* h6 parent edits for all h6.............................. */
+
+h6 {
+  font-size: 11px;
+
+}
+/* parent button work area for all button edit.............. */
+button {
+  display:inline-block;
+  justify-content:center;
+  margin-left: 263.5px;
+  margin-top: 5.5px;
+  font-size: 12px;
+  color:#85C8FC;
+  padding: 13px;
+  background-color: white;
+  border-color: #85C8FC;
+}
+button:hover {
+  background-color: #85C8FC;
+  color: white;
+}
+
+/* day started with coffee container edits below......... */
+
+.coffee{
+  display:inline-block;
+  background-image:url("https://41.media.tumblr.com/53d67cd2acc54a2dfba6a527cdca8c2e/tumblr_nh0d3lE6Cy1togjtco1_500.jpg");
+  margin-left: 118px;
+   background-size: 100% 53%;
+   height: 876px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+.food {
+  display:inline-block;
+  margin-top: 47px;
+}
+.day-start {
+  display: inline-block;
+
+}
+.coffee-button {
+display:inline-block;
+margin-top: 36px;
+padding-left: 23px;
+padding-right: 23px;
+margin-right: 1px;
+}
+
+.josh {
+  display:inline-block;
+
+}
+
+.fabcoffee {
+  display:inline-block;
+
+  font-size: 30px;
+  color: #F1F0F0;
+
+}
+/* profile container edits here...................... */
+.profile {
+  display:inline-block;
+  float:right;
+  margin-right: 104px;
+  margin-top: 48px;
+  height: 630px;
+  width:334px;
+
+
+}
+/* popular post container edits here......................... */
+
+.popularpost {
+  display:inline-block;
+  height: 848px;
+  width: 334px;
+  float: right;
+  margin-right: 104px;
+  position: relative;
+  bottom: 192px;
+}
+
+/* latest post container edits here............. */
+
+.latestpost {
+  display:inline-block;
+  height: 459px;
+  width: 334px;
+  float: right;
+  margin-right: 104px;
+  position: relative;
+  bottom: 306px;
+}
+
+/* pinterst post container edits here.............. */
+
+.pinterest {
+  display:inline-block;
+  height: 376px;
+  width: 334px;
+  float: right;
+  margin-right: 104px;
+  background-color: blue;
+  position:relative;
+  bottom: 659px;
+}
+/* mice on main container edits below............................ */
+.mice {
+  display:inline-block;
+  background-image: url("https://pyxis.nymag.com/v1/imgs/f7a/04a/19d954a244237559f408097ad4d7e2e1d3-mice-lede.jpg");
+  height: 804px;
+  margin-top: 40px;
+  margin-left: 118px;
+  background-size: 100% 48.6%;
+}
+.entertain {
+display:inline-block;
+}
+.miceonmain {
+display:inline-block;
+}
+
+.button-mice {
+display:inline-block;
+
+}
+
+.james {
+display:inline-block;
+}
+.fabmice {
+  display:inline-block;
+  justify-content: flex-end;
+
+  font-size: 30px;
+  color: #F1F0F0;
+
+}
+
+/* art in public container edits below............... */
+
+.art {
+  background-image: url("https://i0.wp.com/stallonezone.com/imgs/news/2006/may/051406rocky_statue.png?resize=500%2C324");
+  height: 950px;
+  display:inline-block;
+  background-size: 114% 54.2%;
+  margin-left: 118px;
+  margin-top: 40px;
+}
+
+.blue-art {
+display:inline-block;
+}
+.art-paragraph {
+display:inline-block;
+}
+.art-button {
+display:inline-block;
+}
+.noelle {
+display:inline-block;
+}
+.fabart {
+  display:inline-block;
+  float:right;
+
+  font-size: 30px;
+  color: #F1F0F0;
+}
+/* liberty bridge downton container edits below.................. */
+.bridge-downtown {
+display:inline-block;
+
+}
+.ben {
+display:inline-block;
+}
+
+.liberty-bridge {
+background-image: url("https://www.travelpharm.com/blog/wp-content/uploads/2016/08/1-travelpharm-blog-scarybridges.jpg");
+background-size: 100% 51%;
+display:inline-block;
+margin-left: 118px;
+margin-top: 48px;
+}
+.bridge-paragraph {
+display:inline-block;
+}
+.bridge-button {
+display:inline-block;
+}
+.fabbridge {
+  display:inline-block;
+  font-size: 30px;
+  color: #F1F0F0;
+}
+div {
+  display:inline-block;
+  float:right;
+}
+
+
+
+
+
+
+
+/* footer work area below.....................................                     */
+
+footer {
+  background-color: black;
+  display: flex;
+
+  height: 55px;
+
+
+}
+.carolina-code {
+  display:flex;
+justify-content: center;
+  color: white;
+  font-size: 14px;
+  margin-left:  50px;
+  font-family: 'Cormorant Garamond', serif;
+
+}
